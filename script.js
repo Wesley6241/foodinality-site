@@ -91,4 +91,48 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
   
+  function submitToAirtable() {
+    const fooditype = document.getElementById("fooditype").innerText;
+    const signaturefood = document.getElementById("signaturefood").innerText;
+    const resource = document.getElementById("resource").innerText.match(/[\d.]+/)[0];
+    const energy = document.getElementById("energy").innerText.match(/[\d.]+/)[0];
+    const waste = document.getElementById("waste").innerText.match(/[\d.]+/)[0];
+  
+    const selectedOptions = JSON.parse(localStorage.getItem("selectedOptions") || "[]");
+    const formattedSelections = selectedOptions.map(obj => `${obj.question_id}:${obj.option_id}`).join("\n");
+  
+    fetch("https://api.airtable.com/v0/appF58bJRuDmOJAL2/Submissions", {
+      method: "POST",
+      headers: {
+        "Authorization": "Bearer YOUR_API_KEY",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        fields: {
+          "Fooditype": fooditype,
+          "Signature Food": signaturefood,
+          "Resource": resource,
+          "Energy": energy,
+          "Waste": waste,
+          "Timestamp": new Date().toISOString(),
+          "Selected Options": formattedSelections
+        }
+      })
+    })
+    .then(res => res.json())
+    .then(data => {
+      alert("🎉 Submitted to Airtable!");
+      console.log("Airtable response:", data);
+    })
+    .catch(err => {
+      console.error("Airtable submit error:", err);
+      alert("❌ Submit failed.");
+    });
+  }
+  
+  function restartTest() {
+    localStorage.removeItem("selectedOptions");
+    window.location.href = "index.html";
+  }
+  
   
