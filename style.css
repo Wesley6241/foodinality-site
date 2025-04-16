@@ -1,0 +1,84 @@
+/* 基础布局 */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: white;
+    color: black;
+}
+
+/* 内容容器 */
+.content-box {
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+}
+
+/* Section description (小一点，灰色) */
+.section-description {
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+/* Question text (大一点，黑色，加粗) */
+.question-text {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* 选项列表 */
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* 单个选项按钮 */
+.option {
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 1.1rem;
+}
+
+/* Hover效果 */
+.option:hover {
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+
+/* 响应式布局 */
+@media (max-width: 414px) {
+    .content-box {
+        padding: 20px;
+        width: 95%;
+    }
+    .question-text {
+        font-size: 1.2rem;
+    }
+    .option {
+        font-size: 1rem;
+    }
+}
+
+/* 选中状态：点击后变黑底白字 */
+.option.selected {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}

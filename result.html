@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Foodinality Result</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <script src="score_data.json"></script>  
+</head>
+<body onload="generateResult()">
+    <div class="content-box">
+        <h1>✨ Your Foodinality Test Result ✨</h1>
+        <p id="fooditype"></p>
+        <p id="signaturefood"></p>
+        <p id="resource"></p>
+        <p id="energy"></p>
+        <p id="waste"></p>
+        <button class="btn start-btn" onclick="restartTest()">Begin</button>
+    </div>
+
+<script>
+  function restartTest() {
+    window.location.href = "index.html"; 
+  }
+</script>
+
+</body>
+</html>

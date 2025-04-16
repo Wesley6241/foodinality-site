@@ -1,0 +1,791 @@
+{
+  "cycle_scores": {
+    "o_1": {
+      "option_id": "o_1",
+      "before_score": 0.0,
+      "during_score": 0.5,
+      "after_score": 0.0
+    },
+    "o_2": {
+      "option_id": "o_2",
+      "before_score": 0.0,
+      "during_score": 1.0,
+      "after_score": 0.0
+    },
+    "o_3": {
+      "option_id": "o_3",
+      "before_score": 0.5,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_4": {
+      "option_id": "o_4",
+      "before_score": 1.0,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_5": {
+      "option_id": "o_5",
+      "before_score": 1.5,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_6": {
+      "option_id": "o_6",
+      "before_score": 1.0,
+      "during_score": 0.0,
+      "after_score": 1.0
+    },
+    "o_7": {
+      "option_id": "o_7",
+      "before_score": 0.0,
+      "during_score": 0.5,
+      "after_score": 0.0
+    },
+    "o_38": {
+      "option_id": "o_38",
+      "before_score": 0.0,
+      "during_score": 0.5,
+      "after_score": 0.0
+    },
+    "o_39": {
+      "option_id": "o_39",
+      "before_score": 1.0,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_86": {
+      "option_id": "o_86",
+      "before_score": 0.5,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_87": {
+      "option_id": "o_87",
+      "before_score": 0.0,
+      "during_score": 1.0,
+      "after_score": 0.0
+    },
+    "o_88": {
+      "option_id": "o_88",
+      "before_score": 0.5,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_89": {
+      "option_id": "o_89",
+      "before_score": 0.0,
+      "during_score": 1.0,
+      "after_score": 0.0
+    },
+    "o_90": {
+      "option_id": "o_90",
+      "before_score": 1.5,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_91": {
+      "option_id": "o_91",
+      "before_score": 1.0,
+      "during_score": 0.0,
+      "after_score": 1.0
+    },
+    "o_110": {
+      "option_id": "o_110",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": 1.0
+    },
+    "o_117": {
+      "option_id": "o_117",
+      "before_score": 0.0,
+      "during_score": 1.0,
+      "after_score": 0.0
+    },
+    "o_118": {
+      "option_id": "o_118",
+      "before_score": 0.0,
+      "during_score": 0.5,
+      "after_score": 0.0
+    },
+    "o_119": {
+      "option_id": "o_119",
+      "before_score": 1.0,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_120": {
+      "option_id": "o_120",
+      "before_score": 0.0,
+      "during_score": 1.0,
+      "after_score": 0.0
+    },
+    "o_121": {
+      "option_id": "o_121",
+      "before_score": 1.0,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_122": {
+      "option_id": "o_122",
+      "before_score": 0.5,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_123": {
+      "option_id": "o_123",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_124": {
+      "option_id": "o_124",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_140": {
+      "option_id": "o_140",
+      "before_score": 0.0,
+      "during_score": -0.5,
+      "after_score": 0.0
+    },
+    "o_141": {
+      "option_id": "o_141",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_142": {
+      "option_id": "o_142",
+      "before_score": 0.0,
+      "during_score": 0.5,
+      "after_score": 0.0
+    },
+    "o_143": {
+      "option_id": "o_143",
+      "before_score": 0.0,
+      "during_score": 1.0,
+      "after_score": 0.0
+    },
+    "o_29": {
+      "option_id": "o_29",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": 0.5
+    },
+    "o_30": {
+      "option_id": "o_30",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": 0.5
+    },
+    "o_31": {
+      "option_id": "o_31",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": 0.5
+    },
+    "o_51": {
+      "option_id": "o_51",
+      "before_score": -0.5,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_52": {
+      "option_id": "o_52",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": -0.5
+    },
+    "o_53": {
+      "option_id": "o_53",
+      "before_score": 0.0,
+      "during_score": -0.5,
+      "after_score": 0.0
+    },
+    "o_54": {
+      "option_id": "o_54",
+      "before_score": 0.5,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_76": {
+      "option_id": "o_76",
+      "before_score": 1.0,
+      "during_score": 0.0,
+      "after_score": 2.0
+    },
+    "o_77": {
+      "option_id": "o_77",
+      "before_score": 1.0,
+      "during_score": 0.0,
+      "after_score": 1.5
+    },
+    "o_78": {
+      "option_id": "o_78",
+      "before_score": 0.5,
+      "during_score": 0.0,
+      "after_score": 1.0
+    },
+    "o_79": {
+      "option_id": "o_79",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": 1.0
+    },
+    "o_80": {
+      "option_id": "o_80",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": 0.5
+    },
+    "o_92": {
+      "option_id": "o_92",
+      "before_score": 1.5,
+      "during_score": 1.0,
+      "after_score": 0.0
+    },
+    "o_93": {
+      "option_id": "o_93",
+      "before_score": 1.0,
+      "during_score": 0.5,
+      "after_score": 0.0
+    },
+    "o_94": {
+      "option_id": "o_94",
+      "before_score": 0.5,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_95": {
+      "option_id": "o_95",
+      "before_score": -0.5,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_96": {
+      "option_id": "o_96",
+      "before_score": -1.0,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_97": {
+      "option_id": "o_97",
+      "before_score": 1.0,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_98": {
+      "option_id": "o_98",
+      "before_score": 0.5,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_99": {
+      "option_id": "o_99",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_100": {
+      "option_id": "o_100",
+      "before_score": -0.5,
+      "during_score": 0.0,
+      "after_score": 0.0
+    },
+    "o_108": {
+      "option_id": "o_108",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": -0.5
+    },
+    "o_109": {
+      "option_id": "o_109",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": -0.5
+    },
+    "o_111": {
+      "option_id": "o_111",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": 1.0
+    },
+    "o_133": {
+      "option_id": "o_133",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": 1.0
+    },
+    "o_135": {
+      "option_id": "o_135",
+      "before_score": 0.0,
+      "during_score": 0.0,
+      "after_score": 0.5
+    }
+  },
+  "focus_scores": {
+    "o_14": {
+      "option_id": "o_14",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 1.0,
+      "cycle": "during"
+    },
+    "o_16": {
+      "option_id": "o_16",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 1.0,
+      "cycle": "during"
+    },
+    "o_17": {
+      "option_id": "o_17",
+      "desire_score": 0.0,
+      "routine_score": 1.0,
+      "ethos_score": 0.0,
+      "cycle": "during"
+    },
+    "o_18": {
+      "option_id": "o_18",
+      "desire_score": 1.0,
+      "routine_score": 0.0,
+      "ethos_score": 1.0,
+      "cycle": "during"
+    },
+    "o_19": {
+      "option_id": "o_19",
+      "desire_score": 0.0,
+      "routine_score": 1.0,
+      "ethos_score": 0.0,
+      "cycle": "during"
+    },
+    "o_20": {
+      "option_id": "o_20",
+      "desire_score": 1.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "during"
+    },
+    "o_41": {
+      "option_id": "o_41",
+      "desire_score": 1.0,
+      "routine_score": 1.0,
+      "ethos_score": 0.0,
+      "cycle": "during"
+    },
+    "o_42": {
+      "option_id": "o_42",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 1.0,
+      "cycle": "during"
+    },
+    "o_43": {
+      "option_id": "o_43",
+      "desire_score": 0.0,
+      "routine_score": 1.0,
+      "ethos_score": 1.0,
+      "cycle": "during"
+    },
+    "o_44": {
+      "option_id": "o_44",
+      "desire_score": 1.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "during"
+    },
+    "o_55": {
+      "option_id": "o_55",
+      "desire_score": 1.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "before"
+    },
+    "o_56": {
+      "option_id": "o_56",
+      "desire_score": 1.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "before"
+    },
+    "o_57": {
+      "option_id": "o_57",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 1.0,
+      "cycle": "before"
+    },
+    "o_58": {
+      "option_id": "o_58",
+      "desire_score": 0.0,
+      "routine_score": 1.0,
+      "ethos_score": 0.0,
+      "cycle": "before"
+    },
+    "o_59": {
+      "option_id": "o_59",
+      "desire_score": 0.0,
+      "routine_score": 1.0,
+      "ethos_score": 0.0,
+      "cycle": "before"
+    },
+    "o_60": {
+      "option_id": "o_60",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 1.0,
+      "cycle": "after"
+    },
+    "o_112": {
+      "option_id": "o_112",
+      "desire_score": 0.0,
+      "routine_score": 1.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_113": {
+      "option_id": "o_113",
+      "desire_score": 1.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_114": {
+      "option_id": "o_114",
+      "desire_score": 1.0,
+      "routine_score": 1.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_115": {
+      "option_id": "o_115",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 1.0,
+      "cycle": "after"
+    },
+    "o_116": {
+      "option_id": "o_116",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 1.0,
+      "cycle": "after"
+    },
+    "o_106": {
+      "option_id": "o_106",
+      "desire_score": 1.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_107": {
+      "option_id": "o_107",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_108": {
+      "option_id": "o_108",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_109": {
+      "option_id": "o_109",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_110": {
+      "option_id": "o_110",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_111": {
+      "option_id": "o_111",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_125": {
+      "option_id": "o_125",
+      "desire_score": 1.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_126": {
+      "option_id": "o_126",
+      "desire_score": 0.0,
+      "routine_score": 1.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_127": {
+      "option_id": "o_127",
+      "desire_score": 0.0,
+      "routine_score": 1.0,
+      "ethos_score": 1.0,
+      "cycle": "after"
+    },
+    "o_128": {
+      "option_id": "o_128",
+      "desire_score": 1.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_129": {
+      "option_id": "o_129",
+      "desire_score": 1.0,
+      "routine_score": 0.0,
+      "ethos_score": 1.0,
+      "cycle": "after"
+    },
+    "o_148": {
+      "option_id": "o_148",
+      "desire_score": 1.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "during"
+    },
+    "o_149": {
+      "option_id": "o_149",
+      "desire_score": 0.0,
+      "routine_score": 1.0,
+      "ethos_score": 0.0,
+      "cycle": "during"
+    },
+    "o_150": {
+      "option_id": "o_150",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 1.0,
+      "cycle": "during"
+    },
+    "o_151": {
+      "option_id": "o_151",
+      "desire_score": 1.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "during"
+    },
+    "o_152": {
+      "option_id": "o_152",
+      "desire_score": 0.0,
+      "routine_score": 1.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_153": {
+      "option_id": "o_153",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 1.0,
+      "cycle": "after"
+    },
+    "o_154": {
+      "option_id": "o_154",
+      "desire_score": 1.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_162": {
+      "option_id": "o_162",
+      "desire_score": 1.0,
+      "routine_score": 0.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_163": {
+      "option_id": "o_163",
+      "desire_score": 1.0,
+      "routine_score": 1.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    },
+    "o_164": {
+      "option_id": "o_164",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 1.0,
+      "cycle": "after"
+    },
+    "o_165": {
+      "option_id": "o_165",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 1.0,
+      "cycle": "after"
+    },
+    "o_166": {
+      "option_id": "o_166",
+      "desire_score": 0.0,
+      "routine_score": 0.0,
+      "ethos_score": 1.0,
+      "cycle": "after"
+    },
+    "o_161": {
+      "option_id": "o_161",
+      "desire_score": 0.0,
+      "routine_score": 1.0,
+      "ethos_score": 0.0,
+      "cycle": "after"
+    }
+  },
+  "multipliers": {
+    "resource": {
+      "o_8": 0.9,
+      "o_9": 1.1,
+      "o_10": 0.95,
+      "o_11": 1.15,
+      "o_12": 1.0,
+      "o_16": 1.0,
+      "o_17": 1.05,
+      "o_18": 1.1,
+      "o_19": 0.9,
+      "o_20": 1.05,
+      "o_21": 0.9,
+      "o_22": 1.1,
+      "o_23": 1.08,
+      "o_24": 0.95,
+      "o_25": 1.15,
+      "o_26": 1.0,
+      "o_65": 1.0,
+      "o_66": 1.2,
+      "o_67": 0.9,
+      "o_68": 0.9,
+      "o_69": 1.0,
+      "o_76": 1.2,
+      "o_77": 1.1,
+      "o_92": 1.2,
+      "o_93": 1.1,
+      "o_97": 0.8,
+      "o_98": 0.9,
+      "o_101": 1.1,
+      "o_102": 1.08,
+      "o_103": 0.95,
+      "o_104": 1.15,
+      "o_105": 1.0
+    },
+    "energy": {
+      "o_16": 0.95,
+      "o_19": 0.95,
+      "o_11": 1.1,
+      "o_26": 1.1,
+      "o_30": 1.1,
+      "o_31": 1.1,
+      "o_32": 1.1,
+      "o_33": 1.0,
+      "o_34": 0.9,
+      "o_41": 0.95,
+      "o_43": 0.95,
+      "o_45": 1.1,
+      "o_46": 1.0,
+      "o_47": 0.9,
+      "o_48": 1.2,
+      "o_76": 1.2,
+      "o_77": 1.1,
+      "o_97": 1.1,
+      "o_98": 1.1,
+      "o_100": 1.1
+    },
+    "waste": {
+      "o_8": 0.9,
+      "o_9": 1.1,
+      "o_10": 1.0,
+      "o_11": 1.1,
+      "o_12": 1.0,
+      "o_17": 1.05,
+      "o_21": 0.9,
+      "o_22": 1.1,
+      "o_23": 1.1,
+      "o_24": 1.0,
+      "o_25": 0.9,
+      "o_26": 1.1,
+      "o_34": 1.05,
+      "o_35": 1.05,
+      "o_36": 1.1,
+      "o_47": 1.05,
+      "o_48": 1.15,
+      "o_27": 0.9,
+      "o_28": 1.0,
+      "o_29": 1.1,
+      "o_30": 1.1,
+      "o_31": 1.2,
+      "o_52": 1.1,
+      "o_53": 1.1,
+      "o_54": 0.9,
+      "o_101": 0.9,
+      "o_102": 1.1,
+      "o_103": 1.1,
+      "o_104": 0.9,
+      "o_105": 1.0,
+      "o_106": 1.1,
+      "o_107": 1.05,
+      "o_108": 1.1,
+      "o_109": 1.15,
+      "o_110": 0.9,
+      "o_111": 1.0,
+      "o_130": 0.9,
+      "o_131": 1.1,
+      "o_132": 1.0,
+      "o_133": 0.9,
+      "o_136": 0.9,
+      "o_137": 1.0,
+      "o_138": 1.1,
+      "o_139": 1.2,
+      "o_144": 0.9,
+      "o_145": 1.0,
+      "o_146": 1.1,
+      "o_147": 1.2,
+      "o_158": 1.05,
+      "o_159": 1.0,
+      "o_160": 1.0,
+      "o_161": 0.95
+    }
+  },
+  "fooditype": {
+    "Before": {
+      "desire": "The Forager of Whim\n\u201cThey chase flavors like fireflies\u2014led by instinct, not map.\u201d",
+      "routine": "The Cartographer\n\u201cThey draw their days in shopping lists and meal plans.\u201d",
+      "ethos": "The Soil Believer\n\u201cEvery bite begins with a choice, every choice plants a seed.\u201d"
+    },
+    "During": {
+      "desire": "The Sensorialist \n\u201cThey eat with their eyes, their hands, their soul.\u201d",
+      "routine": "The Formula Seeker\n\u201cFood is fuel, timed and portioned to precision.\u201d",
+      "ethos": "The Ritualist\n\u201cThey chew with intention, as if each bite carries a truth.\u201d"
+    },
+    "After": {
+      "desire": "The Refresher\n\u201cThey clear space to feel space \u2014 chasing lightness in every trace.\u201d",
+      "routine": "The Arranger\n\u201cThey fold the day into systems, placing each piece where it belongs..\u201d",
+      "ethos": "The Reweaver\n\u201cThey find meaning in remains \u2014 weaving care back into the cycle.\u201d"
+    }
+  },
+  "edible": {
+    "Before": {
+      "desire": "Arugula",
+      "routine": "Green Onion",
+      "ethos": "Purslane"
+    },
+    "During": {
+      "desire": "Basil",
+      "routine": "Garlic Greens",
+      "ethos": "Thyme"
+    },
+    "After": {
+      "desire": "Pea Shoots",
+      "routine": "Cilantro",
+      "ethos": "Wild Arugula"
+    }
+  }
+}
