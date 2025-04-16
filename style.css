@@ -82,3 +82,20 @@ body {
     color: white;
     font-weight: bold;
 }
+
+.start-btn {
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 1.1rem;
+  }
+  
+  .start-btn:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
+  
