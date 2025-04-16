@@ -56,7 +56,7 @@ async function generateResult() {
   document.getElementById("waste").innerText = `Every week, you generate ${waste.toFixed(2)} waste`;
 
   // 清除记录（防止下次打开还带着）
-  localStorage.removeItem("selectedOptions");
+  // localStorage.removeItem("selectedOptions");
 }
 
 function getTopKey(obj) {
@@ -138,8 +138,8 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
   function restartTest() {
-    localStorage.removeItem("selectedOptions");
+    localStorage.removeItem("selectedOptions"); // ✅ 正确的位置！
     window.location.href = "index.html";
-  }
+  }  
   
   
