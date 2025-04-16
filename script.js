@@ -65,31 +65,37 @@ function getTopKey(obj) {
 
 // 自动绑定所有 .option 的点击事件
 document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll(".option").forEach(btn => {
+  document.querySelectorAll(".option").forEach(btn => {
+    const optionId = btn.dataset.optionId;
+    const goTo = btn.dataset.goto;
+    const questionId = btn.closest(".options")?.previousElementSibling?.dataset.questionId;
+
+    if (optionId && questionId) {
+      // 只有有 question_id 的才是问卷题 → 绑定为选项
       btn.addEventListener("click", () => {
-        const optionId = btn.dataset.optionId;
         const optionsWrapper = btn.closest(".options");
-        const questionId = optionsWrapper?.previousElementSibling?.dataset.questionId;
-        const goTo = btn.dataset.goto;
-  
-        if (!questionId || !optionId) return;
-  
-        // 单选逻辑：当前题内所有 .option 取消选中
+
+        // 单选逻辑：取消同题其他选项的 .selected
         optionsWrapper.querySelectorAll(".option").forEach(el => el.classList.remove("selected"));
         btn.classList.add("selected");
-  
-        // 保存选项
+
         const selectedOptions = JSON.parse(localStorage.getItem("selectedOptions") || "[]");
         selectedOptions.push({ question_id: questionId, option_id: optionId });
         localStorage.setItem("selectedOptions", JSON.stringify(selectedOptions));
-  
-        // 如设置了跳转，延迟跳转
+
         if (goTo) {
           setTimeout(() => window.location.href = goTo, 200);
         }
       });
-    });
+    }
   });
+});
+
+  
+  function restartTest() {
+    localStorage.removeItem("selectedOptions");
+    window.location.href = "index.html";
+  }
   
   function submitToAirtable() {
     const fooditype = document.getElementById("fooditype").innerText;
@@ -104,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("https://api.airtable.com/v0/appF58bJRuDmOJAL2/Submissions", {
       method: "POST",
       headers: {
-        "Authorization": "Bearer YOUR_API_KEY",
+        "Authorization": "Bearer patsDoFPDCRNPYes6.838d4e13ee544156b6c32f2d9014601862c6588ddea331bd3985818de87905ca",
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
@@ -122,13 +128,14 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(res => res.json())
     .then(data => {
       alert("🎉 Submitted to Airtable!");
-      console.log("Airtable response:", data);
+      restartTest(); // 提交完跳回首页
     })
     .catch(err => {
       console.error("Airtable submit error:", err);
       alert("❌ Submit failed.");
     });
   }
+  
   
   function restartTest() {
     localStorage.removeItem("selectedOptions");
