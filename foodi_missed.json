@@ -1,0 +1,44 @@
+{
+  "Before": {
+    "desire": {
+      "title": "\ud83c\udf31 The Forager of Whim (Before \u00d7 Desire)",
+      "missed": "You are most attuned to food before it ever hits the plate\u2014drawn by the thrill of discovery. Intuition and curiosity guide your choices more than structure.\n\nWhat you might have missed: Spontaneous grocery runs may leave you with more perishable foods than you can use. Your plant choices might be driven by beauty or novelty, not resilience\u2014leading to early wilt or unnecessary duplicates.\n\nTry this: Channel your creativity into leftovers too\u2014design a \u201csurprise dish\u201d from whatever\u2019s left in the fridge. Let the whim continue into waste reduction."
+    },
+    "routine": {
+      "title": "\ud83d\uddfa The Cartographer (Before \u00d7 Routine)",
+      "missed": "You feel grounded in structure and derive satisfaction from planned meals and systematized shopping.\n\nWhat you might have missed: Overplanning can lead to overbuying\u2014and little room for improvising with leftovers. In your garden, tight spacing or too much variety may compromise airflow or resource use.\n\nTry this: Make space in your week for one \u201copen\u201d meal\u2014use it to integrate odds and ends or harvests you didn\u2019t account for."
+    },
+    "ethos": {
+      "title": "\ud83c\udf3e The Soil Believer (Before \u00d7 Ethos)",
+      "missed": "You see every bite as a choice with ethical weight. Food, to you, is a gesture of care\u2014toward land, people, and principle.\n\nWhat you might have missed: Foods with strong values can also come with short shelf lives or hidden energy costs. Similarly, your passion for seed-to-plant growing might lead to overwatering or mismatched timing.\n\nTry this: Add sustainability to your ethics not just in what you choose, but how you use and grow it. Even the most righteous ingredient deserves thoughtful storage and timing."
+    }
+  },
+  "During": {
+    "desire": {
+      "title": "\ud83c\udfa8 The Sensorialist (During \u00d7 Desire)",
+      "missed": "You savor with every sense\u2014color, aroma, texture, and sound are part of your nourishment.\n\nWhat you might have missed: Aesthetic meals can generate waste if edible trimmings are discarded for beauty. Eye-catching crops you grow may not thrive in your environment, leading to resource-heavy care.\n\nTry this: Treat your trimmings like supporting actors\u2014find simple ways to bring those stems and scraps into their own spotlight."
+    },
+    "routine": {
+      "title": "\u23f1 The Formula Seeker (During \u00d7 Routine)",
+      "missed": "You eat with intention and precision. For you, food is timing, fuel, and optimization.\n\nWhat you might have missed: Rigid portions may leave small extras unaccounted for\u2014and therefore wasted. Your focus on utilitarian plants could overlook soil diversity and seasonal cycles.\n\nTry this: Build flexibility into your formula. A planned \u201cuse-it-up\u201d meal or a rotating plant bed can do wonders without breaking your system."
+    },
+    "ethos": {
+      "title": "\ud83d\udd6f The Ritualist (During \u00d7 Ethos)",
+      "missed": "You eat with presence. Every meal is a chance to reconnect\u2014with yourself, with others, or with place.\n\nWhat you might have missed: Your devotion to meaningful meals can lead to over-preparing or under-saving. Symbolic plants in your home might not always align with actual use or climate.\n\nTry this: Extend your ritual into what happens after the plate is cleared. Make space for leftovers in your story\u2014not just your fridge."
+    }
+  },
+  "After": {
+    "desire": {
+      "title": "\ud83d\udca8 The Refresher (After \u00d7 Desire)",
+      "missed": "You chase lightness after the meal\u2014physical, mental, spatial.\n\nWhat you might have missed: Your desire to \u201cclear the slate\u201d may make you overly quick to toss small remainders. Fast-growing greens you favor may be delicate and easily wasted.\n\nTry this: Let refreshment come from reuse. A single spoon of something leftover can become tomorrow\u2019s topping or spread\u2014keeping your plate and conscience light."
+    },
+    "routine": {
+      "title": "\ud83d\udce6 The Arranger (After \u00d7 Routine)",
+      "missed": "You find closure in clean-up. Nothing satisfies quite like a well-organized fridge or compost system.\n\nWhat you might have missed: Rigid order may lead you to throw away foods that \u201cdon\u2019t fit\u201d\u2014visually, spatially, or by date. Your garden structure might be too energy-intensive to maintain.\n\nTry this: Allow your system to include soft edges. Even a crumpled carrot deserves a place in the plan."
+    },
+    "ethos": {
+      "title": "\ud83e\uddf6 The Reweaver (After \u00d7 Ethos)",
+      "missed": "You find meaning in what remains. Compost, leftovers, bits and pieces\u2014they\u2019re not waste, but potential.\n\nWhat you might have missed: Holding onto everything can sometimes lead to spoilage or cold storage overflow. Similarly, trying to regrow everything from scraps might demand more resources than expected.\n\nTry this: Ask not just \u201cCan I save this?\u201d but \u201cWill I use it?\u201d Let care guide action, not just collection."
+    }
+  }
+}

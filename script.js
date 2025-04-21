@@ -77,18 +77,23 @@ async function generateResult() {
     : `which is ${Math.abs(resourceDiffAvg).toFixed(2)} dollars ${resourceDiffAvg > 0 ? "above" : "below"} the average.`);
 
 document.getElementById("energy").innerText =
-  `Every week, you use ${energy.toFixed(2)} kWh energy, ` +
+  `Every week, you use ${energy.toFixed(2)} kWh energy for foraging, preparing food, and processing food waste` +
   (Math.abs(energyDiffAvg) < 0.01
     ? `which is about the average in the US.`
     : `which is ${Math.abs(energyDiffAvg).toFixed(2)} kWh ${energyDiffAvg > 0 ? "above" : "below"} the average.`);
 
 document.getElementById("waste").innerText =
-  `Every week, you generate ${waste.toFixed(2)} lbs of waste, ` +
+  `Every week, you generate ${waste.toFixed(2)} lbs of food waste, ` +
   (Math.abs(wasteDiffAvg) < 0.01
     ? `which is about the average in the US.`
     : `which is ${Math.abs(wasteDiffAvg).toFixed(2)} lbs ${wasteDiffAvg > 0 ? "above" : "below"} the average.`);
   
-
+    const missedResponse = await fetch("foodi_missed.json");
+    const missedData = await missedResponse.json();
+    const missed = missedData[topCycle.charAt(0).toUpperCase() + topCycle.slice(1)][topFocus];
+    document.getElementById("missed-title").innerText = "What You Might Have Missed";
+    document.getElementById("missed-content").innerText = missed.missed;
+    
   // 清除记录（防止下次打开还带着）
   // localStorage.removeItem("selectedOptions");
 }
