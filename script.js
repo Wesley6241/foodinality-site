@@ -93,6 +93,7 @@ document.getElementById("waste").innerText =
     const missed = missedData[topCycle.charAt(0).toUpperCase() + topCycle.slice(1)][topFocus];
     document.getElementById("missed-title").innerText = "What You Might Have Missed";
     document.getElementById("missed-content").innerText = missed.missed;
+    
     const tryusResponse = await fetch("foodi_tryus.json");
     const tryusData = await tryusResponse.json();
     const tryus = tryusData[topCycle.charAt(0).toUpperCase() + topCycle.slice(1)][topFocus];
