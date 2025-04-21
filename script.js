@@ -93,6 +93,12 @@ document.getElementById("waste").innerText =
     const missed = missedData[topCycle.charAt(0).toUpperCase() + topCycle.slice(1)][topFocus];
     document.getElementById("missed-title").innerText = "What You Might Have Missed";
     document.getElementById("missed-content").innerText = missed.missed;
+    const tryusResponse = await fetch("foodi_tryus.json");
+    const tryusData = await tryusResponse.json();
+    const tryus = tryusData[topCycle.charAt(0).toUpperCase() + topCycle.slice(1)][topFocus];
+    document.getElementById("tryus-title").innerText = tryus.title;
+    document.getElementById("tryus-content").innerText = tryus.text;
+
     
   // 清除记录（防止下次打开还带着）
   // localStorage.removeItem("selectedOptions");

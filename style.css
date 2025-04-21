@@ -99,3 +99,28 @@ body {
     font-weight: bold;
   }
   
+  .result {
+    text-align: justify;
+    margin-bottom: 1em;
+    line-height: 1.6;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h2 {
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.5rem;   /* 略大 */
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+  }
+  
+  h3 {
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.2rem;   /* 稍小 */
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  

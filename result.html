@@ -10,18 +10,22 @@
 <body onload="generateResult()">
     <div class="content-box">
         <h1>✨ Your Foodinality Test Result ✨</h1>
-        <p id="fooditype"></p>
+        <div id="fooditype"></div>
+        <div>.......................................................................................................................</div>
+        <div id="behavior" class="result"></div>
         <div></div>
-        <p id="behavior"></p>
+        <div id="signaturefood" class="result"></div>
         <div></div>
-        <p id="signaturefood"></p>
-        <div></div>
-        <p id="resource"></p>
-        <p id="energy"></p>
-        <p id="waste"></p>
+        <div id="resource" class="result"></div>
+        <div id="energy" class="result"></div>
+        <div id="waste" class="result"></div>
         <div></div>
         <h2 id="missed-title"></h2>
-        <p id="missed-content"></p>
+        <div id="missed-content" class="result"></div>
+        <h3 id="tryus-title"></h3>
+        <div id="tryus-content" class="result"></div>
+        
+
         <button class="option" id="submit-btn" onclick="submitToAirtable()">Save My Answer</button>
         <button class="option" id="back-btn" onclick="restartTest()">Go Back</button>
      
