@@ -17,7 +17,8 @@ async function generateResult() {
 
   let cycleScore = { before: 0, during: 0, after: 0 };
   let focusScore = { desire: 0, routine: 0, ethos: 0 };
-  let resource = 0, energy = 0, waste = 0;
+  let resourceMultiplier = 1, energyMultiplier = 1, wasteMultiplier = 1;
+
 
   options.forEach(({ option_id }) => {
     const c = Object.values(data.cycle_scores).find(o => o.option_id === option_id);
@@ -39,10 +40,22 @@ async function generateResult() {
       }
     }
 
-    resource += data.multipliers.resource[option_id] || 1;
-    energy += data.multipliers.energy[option_id] || 1;
-    waste += data.multipliers.waste[option_id] || 1;
+    resourceMultiplier *= data.multipliers.resource[option_id] || 1;
+    energyMultiplier *= data.multipliers.energy[option_id] || 1;
+    wasteMultiplier *= data.multipliers.waste[option_id] || 1;
   });
+
+    const BASE_RESOURCE = 63;
+  const BASE_ENERGY = 5.6;
+  const BASE_WASTE = 4.5;
+
+  const resource = BASE_RESOURCE * resourceMultiplier;
+  const energy = BASE_ENERGY * energyMultiplier;
+  const waste = BASE_WASTE * wasteMultiplier;
+
+  const resourceDiffAvg = BASE_RESOURCE * (resourceMultiplier - 1);
+  const energyDiffAvg = BASE_ENERGY * (energyMultiplier - 1);
+  const wasteDiffAvg = BASE_WASTE * (wasteMultiplier - 1);
 
   const topCycle = getTopKey(cycleScore);
   const topFocus = getTopKey(focusScore);
@@ -51,9 +64,30 @@ async function generateResult() {
 
   document.getElementById("fooditype").innerText = `Your fooditype is: ${foodi}`;
   document.getElementById("signaturefood").innerText = `Your signature food is: ${edible}`;
-  document.getElementById("resource").innerText = `Every week, you consume ${resource.toFixed(2)} resources`;
-  document.getElementById("energy").innerText = `Every week, you consume ${energy.toFixed(2)} energy`;
-  document.getElementById("waste").innerText = `Every week, you generate ${waste.toFixed(2)} waste`;
+  // Load and display behavior description
+  const behaviorResponse = await fetch("foodi_behavior.json");
+  const behaviorData = await behaviorResponse.json();
+  const behaviorText = behaviorData[topCycle.charAt(0).toUpperCase() + topCycle.slice(1)][topFocus];
+  document.getElementById("behavior").innerText = behaviorText;
+
+  document.getElementById("resource").innerText =
+  `Every week, you consume $${resource.toFixed(2)} in food-related resources, ` +
+  (Math.abs(resourceDiffAvg) < 0.01
+    ? `which is about the average in the US.`
+    : `which is ${Math.abs(resourceDiffAvg).toFixed(2)} dollars ${resourceDiffAvg > 0 ? "above" : "below"} the average.`);
+
+document.getElementById("energy").innerText =
+  `Every week, you use ${energy.toFixed(2)} kWh energy, ` +
+  (Math.abs(energyDiffAvg) < 0.01
+    ? `which is about the average in the US.`
+    : `which is ${Math.abs(energyDiffAvg).toFixed(2)} kWh ${energyDiffAvg > 0 ? "above" : "below"} the average.`);
+
+document.getElementById("waste").innerText =
+  `Every week, you generate ${waste.toFixed(2)} lbs of waste, ` +
+  (Math.abs(wasteDiffAvg) < 0.01
+    ? `which is about the average in the US.`
+    : `which is ${Math.abs(wasteDiffAvg).toFixed(2)} lbs ${wasteDiffAvg > 0 ? "above" : "below"} the average.`);
+  
 
   // 清除记录（防止下次打开还带着）
   // localStorage.removeItem("selectedOptions");
